@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40a4d8aa-db80-481a-83cf-e46f5b49aa25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Studio2Quizzes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunWithQuizzes/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunWithQuizzes/MultipleChoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunWithQuizzes/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunWithQuizzes/QuizRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FunWithQuizzes/TrueFalse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunWithQuizzes/QuizRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunWithQuizzes/QuizRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

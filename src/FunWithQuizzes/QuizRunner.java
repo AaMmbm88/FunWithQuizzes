@@ -6,7 +6,7 @@ public class QuizRunner {
     public static void main (String args[]){
         ArrayList<Boolean> answers = new ArrayList<>();
         ArrayList<Question> questions = new ArrayList<>();
-        int score = 0;
+        double score = 0;
         double grade;
 
         MultipleChoice paCapital = new MultipleChoice("What is the capital of Pennsylvania?", "Harrisburg", "Philadelphia", "Pittsburgh", "Erie");
@@ -60,7 +60,7 @@ public class QuizRunner {
         System.out.println(score);
         System.out.println(answers.size());
 
-        grade = ((score / (answers.size())) * 100);
+        grade = Math.round((score / (answers.size())) * 100);
         System.out.println(grade);
 
 
