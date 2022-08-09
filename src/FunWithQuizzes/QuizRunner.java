@@ -33,21 +33,6 @@ public class QuizRunner {
             answers.add(question.checkAnswer());
         }
 
-//        paCapital.askQuestionAndAnswers();
-//        answers.add(paCapital.checkAnswer());
-//        ringForger.askQuestionAndAnswers();
-//        answers.add(ringForger.checkAnswer());
-//        fellowship.askQuestionAndAnswers();
-//        answers.add(fellowship.checkAnswer());
-//        darthMaulDied.askQuestion();
-//        answers.add(darthMaulDied.checkAnswer());
-//        feanorWasADick.askQuestion();
-//        answers.add(feanorWasADick.checkAnswer());
-//        sith.askQuestion();
-//        answers.add(sith.checkAnswer());
-//        quiGonsMaster.askQuestion();
-//        answers.add(quiGonsMaster.checkAnswer());
-
         System.out.println(answers);
 
 
@@ -55,7 +40,6 @@ public class QuizRunner {
             if (answer == true){
                 score++;
             }
-
         }
         System.out.println(score);
         System.out.println(answers.size());

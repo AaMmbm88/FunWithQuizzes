@@ -16,16 +16,14 @@ public class MultipleChoice extends Question {
 
     public MultipleChoice(String aQuestion, String rightAnswer, String answer1, String answer2, String answer3){
         super(aQuestion);
-//        ArrayList<String> answers = new ArrayList<>();
         answers.add(rightAnswer);
         answers.add(answer1);
         answers.add(answer2);
         answers.add(answer3);
         Collections.shuffle(answers);
-//        System.out.println(answers);
-//        System.out.println(answers.indexOf(rightAnswer));
+
         correctAnswer = answers.indexOf(rightAnswer) +1 ;
-//        System.out.println(correctAnswer);
+
 
 
     }
@@ -43,7 +41,6 @@ public boolean checkAnswer(){
         input = new Scanner(System.in);
     System.out.println("Enter number corresponding to the correct answer: ");
     int chosenAnswer = input.nextInt();
-//    input.close();
     if(chosenAnswer == correctAnswer){
         isCorrect = true;
     }

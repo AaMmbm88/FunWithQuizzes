@@ -19,6 +19,7 @@ public class TrueFalse extends Question {
 
     public void askQuestionAndAnswers(){
         super.askQuestion();
+        System.out.println("(type answer and hit enter)");
     }
 
     public boolean checkAnswer(){
